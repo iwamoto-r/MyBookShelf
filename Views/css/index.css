@@ -1,0 +1,77 @@
+.footer {
+    position: fixed;
+    /* position: absolute; */
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+    border-top: 1px solid #a9a9a9;
+    background-color: whitesmoke;
+    color: darkslategrey;
+}
+
+.header{
+    position: relative;
+    top: 0;
+    height: 150px;
+    width: 100%;
+    background-image: url(../img/header2.jpg);
+    background-size: auto;
+}
+
+.header p{
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    right: 0;
+}
+
+.container, .container-md, .container-sm {
+    max-width: 80%;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    /* position: relative; */
+}
+
+body{
+    position: relative;
+    background-color: whitesmoke;
+}
+
+#author_submit_btn {
+    display       : inline-block;
+    border-radius : 10%;          /* 角丸       */
+    font-size     : 9pt;        /* 文字サイズ */
+    text-align    : center;      /* 文字位置   */
+    cursor        : pointer;     /* カーソル   */
+    padding       : 12px 12px;   /* 余白       */
+    background    : rgba(0, 179, 0, 0.71);     /* 背景色     */
+    color         : #ffffff;     /* 文字色     */
+    line-height   : 0.7em;         /* 1行の高さ  */
+    transition    : .2s;         /* なめらか変化 */
+    box-shadow    : 1px 1px 5px #666666;  /* 影の設定 */
+    border        : 1px solid rgba(0, 179, 0, 0.71);    /* 枠の指定 */
+    margin-left: 5px;
+}
+
+#author_submit_btn:hover {
+    box-shadow    : none;        /* カーソル時の影消去 */
+    color         : rgba(0, 179, 0, 0.71);     /* 背景色     */
+    background    : #ffffff;     /* 文字色     */
+}
+
+.table td{
+    vertical-align: middle;
+    padding: 15px 5px;
+}
+
+#rental, input[type="date"]{
+    border: skyblue 2px inset;
+    border-radius: 5px;
+}
+
+.media, .media-left, .media-body {
+    padding: 10px;
+}
+
